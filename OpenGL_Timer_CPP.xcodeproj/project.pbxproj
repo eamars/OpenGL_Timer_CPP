@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A821BFB3172BC26E003677A3 /* TextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A821BFB1172BC26E003677A3 /* TextBox.cpp */; };
+		A821BFB5172BC315003677A3 /* GLColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A821BFB4172BC315003677A3 /* GLColor.cpp */; };
+		A821BFBB172BEEE0003677A3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821BFB9172BEEE0003677A3 /* GLUT.framework */; };
+		A821BFBC172BEEE0003677A3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A821BFBA172BEEE0003677A3 /* OpenGL.framework */; };
+		A821BFBF172BEF18003677A3 /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A821BFBD172BEF18003677A3 /* Clock.cpp */; };
 		A8C34E58172B863400165320 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8C34E57172B863400165320 /* main.cpp */; };
 		A8C34E5A172B863400165320 /* OpenGL_Timer_CPP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8C34E59172B863400165320 /* OpenGL_Timer_CPP.1 */; };
+		A8C34E6D172B8BBE00165320 /* GL_Pt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8C34E6B172B8BBE00165320 /* GL_Pt.cpp */; };
+		A8C34E70172B8DBC00165320 /* GlutObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8C34E6E172B8DBC00165320 /* GlutObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +32,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A821BFB1172BC26E003677A3 /* TextBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextBox.cpp; sourceTree = "<group>"; };
+		A821BFB2172BC26E003677A3 /* TextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBox.h; sourceTree = "<group>"; };
+		A821BFB4172BC315003677A3 /* GLColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLColor.cpp; sourceTree = "<group>"; };
+		A821BFB9172BEEE0003677A3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = "<group>"; };
+		A821BFBA172BEEE0003677A3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		A821BFBD172BEF18003677A3 /* Clock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Clock.cpp; sourceTree = "<group>"; };
+		A821BFBE172BEF18003677A3 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
 		A8C34E54172B863400165320 /* OpenGL_Timer_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL_Timer_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C34E57172B863400165320 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A8C34E59172B863400165320 /* OpenGL_Timer_CPP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenGL_Timer_CPP.1; sourceTree = "<group>"; };
+		A8C34E6A172B89DF00165320 /* GLColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLColor.h; sourceTree = "<group>"; };
+		A8C34E6B172B8BBE00165320 /* GL_Pt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GL_Pt.cpp; sourceTree = "<group>"; };
+		A8C34E6C172B8BBE00165320 /* GL_Pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GL_Pt.h; sourceTree = "<group>"; };
+		A8C34E6E172B8DBC00165320 /* GlutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlutObject.cpp; sourceTree = "<group>"; };
+		A8C34E6F172B8DBC00165320 /* GlutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlutObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A821BFBB172BEEE0003677A3 /* GLUT.framework in Frameworks */,
+				A821BFBC172BEEE0003677A3 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 		A8C34E4B172B863400165320 = {
 			isa = PBXGroup;
 			children = (
+				A821BFB9172BEEE0003677A3 /* GLUT.framework */,
+				A821BFBA172BEEE0003677A3 /* OpenGL.framework */,
 				A8C34E56172B863400165320 /* OpenGL_Timer_CPP */,
 				A8C34E55172B863400165320 /* Products */,
 			);
@@ -61,6 +84,16 @@
 			isa = PBXGroup;
 			children = (
 				A8C34E57172B863400165320 /* main.cpp */,
+				A8C34E6F172B8DBC00165320 /* GlutObject.h */,
+				A8C34E6E172B8DBC00165320 /* GlutObject.cpp */,
+				A821BFBE172BEF18003677A3 /* Clock.h */,
+				A821BFBD172BEF18003677A3 /* Clock.cpp */,
+				A8C34E6C172B8BBE00165320 /* GL_Pt.h */,
+				A8C34E6B172B8BBE00165320 /* GL_Pt.cpp */,
+				A8C34E6A172B89DF00165320 /* GLColor.h */,
+				A821BFB4172BC315003677A3 /* GLColor.cpp */,
+				A821BFB2172BC26E003677A3 /* TextBox.h */,
+				A821BFB1172BC26E003677A3 /* TextBox.cpp */,
 				A8C34E59172B863400165320 /* OpenGL_Timer_CPP.1 */,
 			);
 			path = OpenGL_Timer_CPP;
@@ -118,6 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C34E58172B863400165320 /* main.cpp in Sources */,
+				A8C34E6D172B8BBE00165320 /* GL_Pt.cpp in Sources */,
+				A8C34E70172B8DBC00165320 /* GlutObject.cpp in Sources */,
+				A821BFB3172BC26E003677A3 /* TextBox.cpp in Sources */,
+				A821BFB5172BC315003677A3 /* GLColor.cpp in Sources */,
+				A821BFBF172BEF18003677A3 /* Clock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +224,10 @@
 		A8C34E5E172B863400165320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +235,10 @@
 		A8C34E5F172B863400165320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -216,6 +262,7 @@
 				A8C34E5F172B863400165320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
