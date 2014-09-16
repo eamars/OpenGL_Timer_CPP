@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F36DB262-AF36-40C8-AAE0-E1D4077FD37C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenGL_Timer_CPP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B025343150FFF390424B3D944F86A4C01C986D3B</key>
+		<string>https://github.com/eamars/OpenGL_Timer_CPP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenGL_Timer_CPP.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B025343150FFF390424B3D944F86A4C01C986D3B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eamars/OpenGL_Timer_CPP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B025343150FFF390424B3D944F86A4C01C986D3B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B025343150FFF390424B3D944F86A4C01C986D3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenGL_Timer_CPP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
